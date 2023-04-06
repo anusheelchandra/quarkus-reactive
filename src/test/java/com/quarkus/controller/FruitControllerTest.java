@@ -1,4 +1,4 @@
-package com.finastra.controller;
+package com.quarkus.controller;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;

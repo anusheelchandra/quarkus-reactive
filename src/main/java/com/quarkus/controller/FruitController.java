@@ -1,8 +1,8 @@
-package com.finastra.controller;
+package com.quarkus.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.finastra.entity.Fruit;
+import com.quarkus.entity.Fruit;
 import io.quarkus.hibernate.reactive.panache.Panache;
 import io.quarkus.panache.common.Sort;
 import io.smallrye.common.constraint.NotNull;

@@ -1,4 +1,4 @@
-package com.finastra.entity;
+package com.quarkus.entity;
 
 import io.quarkus.hibernate.reactive.panache.PanacheEntity;
 
