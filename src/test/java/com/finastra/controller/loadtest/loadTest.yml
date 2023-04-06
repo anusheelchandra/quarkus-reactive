@@ -1,0 +1,15 @@
+config:
+  target: "http://localhost:8080"
+  phases:
+    - duration: 30
+      arrivalRate: 1
+      rampUP: 10
+      name: Warm up
+
+scenarios:
+  - name: "Fetch all fruits"
+    flo w:
+      - post:
+          url: "/fruits"
+      -delete:
+          url
